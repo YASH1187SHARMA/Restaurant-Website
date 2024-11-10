@@ -1,0 +1,570 @@
+/* CREATED BY :- YASH SHARMA */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+    
+}
+nav{
+    max-width: 100%;
+    height: 16.5vh;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.5);
+}
+.search{
+    width: 50%;
+    height: 7vh;
+    background-color: #bcd6cb;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 17px;
+    margin-top: 24px;
+    padding-left: 15px;
+    border-radius: 14px;
+    color: black;
+}
+.search .search-1{
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+}
+
+ input::placeholder{
+    color: black;
+    font-size: 17px;
+ }
+ .location{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 18px;
+ }
+ .location #location_icon{
+    font-size: 30px;
+ }
+.image-1{
+    height: 16vh;
+    width: 10vw;
+}
+.menu{
+    font-size: 45px;
+    padding: 26px 0px;
+}
+.hero{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-self: flex-start;
+    padding: 20px 0px 0 50px;
+}
+.hero .logo_2{
+    height: 77vh;
+    width: 36vw;
+    margin: 10px 0px;
+}
+.hero .format{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0px 0 50px;
+    align-self: flex-start;
+    gap: 20px;
+    width: 100%;
+
+}
+.format h3{
+    font-size: 24px;
+    background-color: #1f912a;
+    align-self: flex-start;
+    padding: 2px;
+    color: #fff;
+    font-weight: 400;
+}
+.format h1{
+    font-size: 60px;
+    
+}
+.data{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 0;
+
+}
+.data .btn-menu{
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+    cursor: pointer;
+   }
+   
+   .btn-menu::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+   }
+   
+   .btn-menu:hover {
+    color: #e8e8e8;
+   }
+   
+   .btn-menu:hover::before {
+    width: 100%;
+   }
+.explore h1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 50px 0;
+}
+.explore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.grid{
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+     "I1 I1 I2 I3"
+     "I1 I1 I2 I7"
+     "I4 I5 I6 I7";
+}
+.grid-image{
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+    width: 100%;
+    height: 100%;
+}
+.grid-image:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+}
+.item1{
+    grid-area: I1;
+}
+.item2{
+    grid-area: I2;
+}
+.item3{
+    grid-area: I3;
+}
+.item4{
+    grid-area: I4;
+}
+.item5{
+    grid-area: I5;
+}
+.item6{
+    grid-area: I6;
+}
+.item7{
+    grid-area: I7;
+}
+.format .btn_1{
+    background-color: #dba932;
+    font-size: 28px;
+    align-self: flex-start;
+    padding: 10px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.format p{
+    font-size: 18px;
+}
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    padding-right: 4px;
+    
+}
+/* content */
+.content{
+    width: 100%;
+    display: flex;
+    margin-top: 200px;
+    gap: 20px;
+    justify-content: space-around;
+}
+.content .one,.two,.three{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.content h3{
+    font-size: 30px;
+}
+.content p{
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: justify;
+}
+/* Footer */
+.footer{
+    margin-top: 50px;
+    height: 100%;
+    width: 100%;
+    background-color: #2fa3bd;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer img{
+    background-color: transparent;
+}
+.foot2,.foot3,.foot4{
+    margin-top: 50px;
+}
+ul li{
+    list-style: none;
+    margin-top: 15px;
+}
+footer h3{
+    font-size: 24px;
+}
+.foot4 p{
+    margin: 15px 0 15px 0;
+}
+.foot4 #email{
+    width: 20vw;
+    height: 4vh;
+    margin-top: 15px;
+    border-radius: 7px;
+}
+.icons{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+@media (max-width:843px) {
+    nav{
+        height: 16.5vh;
+        width: 100%;
+    }
+    .location{
+        display: none;
+    }
+    .logo_1 .image-1{
+        height: 20vh;
+        width: 15vw;
+    }
+    .search{
+        height: 7vh;
+        width: 60%;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero .logo_2{
+        justify-content: center;
+        height: 100vh;
+        width: 75vw;
+    }
+    .user{
+        margin-top: 8px;
+        margin-right: 10px;
+
+    }
+    .menu{
+        margin-right: 50px;
+    }
+    .format{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .foot4{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .content{
+        display: flex;
+        flex-direction: column;
+        padding-top: 80vh;
+        text-align: justify;
+    }
+    .content .one-1,p{
+        display: inline-block;
+    }
+    .foot4 #email{
+        width: 100%;
+    }
+}
+/* 520px */
+@media (max-width:494px){
+    nav{
+        height: 16.5vh;
+        width: 100%;
+    }
+    .logo_1 .image-1{
+        height: 18vh;
+        width: 20vw;
+    }
+    .user{
+        display: none;
+    }
+    
+    .search{
+        height: 8vh;
+        width: 60%;
+        margin-left: 10px;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero .logo_2{
+        justify-content: center;
+        height: 70vh;
+        width: 80vw;
+    }
+    
+   
+    .format{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .foot4{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .content{
+        display: flex;
+        flex-direction: column;
+        padding-top: 80vh;
+        text-align: justify;
+    }
+    .content .one-1 h3{
+        font-size: 26px;
+    }
+    .content .one-1 p{
+        font-size: 14px;
+    }
+    .content .two-2 h3{
+        font-size: 26px;
+    }
+    .content .two-2 p{
+        font-size: 14px;
+    }
+    .content .three-3 h3{
+        font-size: 24px;
+    }
+    .content .three-3 p{
+        font-size: 14px;
+    }
+    .foot4 #email{
+        width: 100%;
+    }
+}
+/* 432 pixels */
+@media (max-width:432px){
+    nav{
+        height: 16.5vh;
+        width: 100%;
+    }
+    .logo_1 .image-1{
+        height: 16vh;
+        width: 30vw;
+    }
+    .user{
+        display: none;
+    }
+    .menu{
+        padding-left: 30px;
+    }
+    .search{
+        height: 8vh;
+        width: 70%;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero .logo_2{
+        justify-content: center;
+        height: 40vh;
+        width: 100vw;
+        padding-right: 20px;
+    }
+    
+    
+    .format{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .foot4{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .content{
+        display: flex;
+        flex-direction: column;
+        padding-top: 60vh;
+        text-align: justify;
+    }
+    .content .one-1 h3{
+        font-size: 22px;
+    }
+    .content .one-1 p{
+        font-size: 14px;
+    }
+    .content .two-2 h3{
+        font-size: 22px;
+    }
+    .content .two-2 p{
+        font-size: 14px;
+    }
+    .content .three-3 h3{
+        font-size: 22px;
+    }
+    .content .three-3 p{
+        font-size: 14px;
+    }
+
+    .foot4 #email{
+        width: 100%;
+    }
+}
+/* 293 pixels */
+
+@media (max-width:293px){
+    nav{
+        height: 16.5vh;
+        width: 100%;
+    }
+    .logo_1 .image-1{
+        height: 18vh;
+        width: 30vw;
+    }
+    .user{
+        display: none;
+    }
+    .menu{
+        padding-left: 30px;
+    }
+    .search{
+        height: 8vh;
+        width: 70%;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero .logo_2{
+        justify-content: center;
+        height: 50vh;
+        width: 110vw;
+        padding-right: 20px;
+    }
+    
+        .format{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .foot4{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .content{
+        display: flex;
+        flex-direction: column;
+        padding-top: 80vh;
+        text-align: justify;
+    }
+    .content .one-1 h3{
+        font-size: 22px;
+    }
+    .content .one-1 p{
+        font-size: 14px;
+    }
+    .content .two-2 h3{
+        font-size: 22px;
+    }
+    .content .two-2 p{
+        font-size: 14px;
+    }
+    .content .three-3 h3{
+        font-size: 22px;
+    }
+    .content .three-3 p{
+        font-size: 14px;
+    }
+
+    .foot4 #email{
+        width: 100%;
+    }
+}
+
+
